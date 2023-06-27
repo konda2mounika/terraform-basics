@@ -53,11 +53,11 @@ output "ex-map" {
 }
 
 # # Declaring an empty variable
-# variable "City" {}
+variable "City" {}
 
-# output "city" {
-#     value = "City name is ${var.City}"
-# }
+output "city" {
+    value = "City name is ${var.City}"
+}
 
 # # Declaring an empty variable 
 
