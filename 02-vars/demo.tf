@@ -59,10 +59,11 @@ output "city" {
     value = "City name is ${var.City}"
 }
 
-# # Declaring an empty variable 
 
-# variable "State" {}
+# Declaring an empty variable
 
-# output "state" {
-#     value = var.State
-# }
+variable "state" {}
+
+output "state" {
+        value = var.state
+}
